@@ -1,7 +1,7 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
+  name: "joe nuts",
   role: "YOUR_ROLE",
   introduction: "SHORT_INTRODUCTION",
   description: "TELL_ABOUT_YOURSELF",
