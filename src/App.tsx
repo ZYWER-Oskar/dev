@@ -5,6 +5,7 @@ import MainPage from "./Pages/MainPage";
 import ContactPage from "./Pages/ContactPage";
 import SelfSummary from "./Components/SelfSummary";
 import AboutMe from "./Pages/AboutMe";
+import Brudda from "./Pages/TheBruvPage";
 import { Column } from "./Styles/StyledComponents";
 import Footer from "./Components/Footer";
 
@@ -64,12 +65,14 @@ const App: React.FC = () => {
           <NavbarLink to="/">Games 👾</NavbarLink>
           <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
           <NavbarLink to="/contact">Contact 💬</NavbarLink>
+          <NavbarLink to="/bruv2">Contact 💬</NavbarLink>
         </Navbar>
 
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/bruv2" element={<Brudda />} />
         </Routes>
       </AppContainer>
       <Footer />

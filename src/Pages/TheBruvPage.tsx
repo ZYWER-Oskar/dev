@@ -38,17 +38,17 @@ const CVButton = styled.a`
   padding: 10px 20px;
   font-size: 16px;
   color: white;
-  background-color: #007bff;
+  background-color:rgb(255, 0, 0);
   text-decoration: none;
   border-radius: 5px;
   transition: background 0.3s;
 
   &:hover {
-    background-color: #0056b3;
+    background-color:rgb(179, 0, 0);
   }
 `;
 
-const AboutMe: React.FC = () => {
+const Brudda: React.FC = () => {
   return (
     <Container>
       <ProfileImage src={PersonalInfo.image} alt="Your Name" />
@@ -56,10 +56,10 @@ const AboutMe: React.FC = () => {
        {PersonalInfo.description}
       </AboutText>
       <CVButton href={`${PersonalInfo.cvUri}`} download>
-        Download My CV
+        Download DEEZ NUTS
       </CVButton>
     </Container>
   );
 };
 
-export default AboutMe;
+export default Brudda;
