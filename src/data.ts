@@ -16,7 +16,7 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "BRUDDAAAAAAAA",
+    name: "GAME_NAME",
     description: "GAME_DESCRIPTION",
     genres: ["GAME_GENRE", "GAME_GENRE..."],
     platforms: [Platform.Windows],
@@ -27,7 +27,7 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/wSetRE-4X4U?si=fN4ZQYAQifKzBGHE", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
