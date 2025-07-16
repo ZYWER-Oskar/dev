@@ -14,7 +14,7 @@ const GameInfoContainer = styled(Column)`
 const GameTitle = styled.h1`
   font-family: "ZenDots", sans-serif;
   font-size: 2rem;
-  color: #00ced1;
+  color:rgb(250, 255, 151);
   margin-top: 0;
   
   @media (max-width: 768px) {

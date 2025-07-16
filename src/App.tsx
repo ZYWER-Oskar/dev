@@ -5,7 +5,10 @@ import MainPage from "./Pages/MainPage";
 import ContactPage from "./Pages/ContactPage";
 import SelfSummary from "./Components/SelfSummary";
 import AboutMe from "./Pages/AboutMe";
+import MeSectionPage from "./Pages/MePage";
 import Brudda from "./Pages/TheBruvPage";
+import OtherProjectPage from "./Pages/OtherProjPage"
+import NewMainPage from "./Pages/NewMainPage"
 import { Column } from "./Styles/StyledComponents";
 import Footer from "./Components/Footer";
 
@@ -62,17 +65,17 @@ const App: React.FC = () => {
         <SelfSummary />
 
         <Navbar>
-          <NavbarLink to="/">Games 👾</NavbarLink>
+          <NavbarLink to="/">Game Projects 👾</NavbarLink>
+          <NavbarLink to="/otherproj">Other Works ✏️</NavbarLink>
           <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
           <NavbarLink to="/contact">Contact 💬</NavbarLink>
-          <NavbarLink to="/bruv2">Contact 💬</NavbarLink>
         </Navbar>
 
         <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/bruv2" element={<Brudda />} />
+          <Route path="/" element={<NewMainPage />} />
+          <Route path="/otherproj" element={<OtherProjectPage />} />
+          <Route path="/about-me" element={<MeSectionPage />} />
+          <Route path="/contact" element={<AboutMe />} />
         </Routes>
       </AppContainer>
       <Footer />

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { PersonalInfo } from "../data";
 import { Column } from "../Styles/StyledComponents";
+import { Row } from '../Styles/StyledComponents';
 
 const Container = styled(Column)`
   align-items: center;
@@ -11,8 +12,8 @@ const Container = styled(Column)`
 `;
 
 const ProfileImage = styled.img`
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 5px solid rgb(229, 225, 191);
 
@@ -48,6 +49,10 @@ const CVButton = styled.a`
   }
 `;
 
+const MyLink = styled.a`
+    color: green !important;
+`
+
 const AboutMe: React.FC = () => {
   return (
     <Container>
@@ -55,11 +60,14 @@ const AboutMe: React.FC = () => {
       <AboutText>
        {PersonalInfo.description}
       </AboutText>
-      <CVButton href={`${PersonalInfo.cvUri}`} download>
-        Download My CV
-      </CVButton>
+      <p>Find my links on my Linktree</p>
+      <MyLink href="https://linktr.ee/oskarzywer" target="_blank"> HERE</MyLink>
     </Container>
   );
 };
+
+ //     <CVButton href={`${PersonalInfo.cvUri}`} download>
+ //       Download My CV
+ //     </CVButton>
 
 export default AboutMe;

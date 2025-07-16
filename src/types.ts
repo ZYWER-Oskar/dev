@@ -1,6 +1,14 @@
 export enum LinkImageSource {
-  Github = "/images/logos/github.png",
+  Github = "/images/logos/discord.png",
   ItchIo = "/images/logos/itch.io.png",
+  newitch = "/images/logos/itch.ioTEST.png",
+  newbut = "/images/logos/testbut.png",
+  OpenDocumentation = "/images/logos/B_ViewDocs.png",
+  OpenSteam = "/images/logos/B_Steam.png",
+  OpenOsu = "/images/logos/B_osu.png",
+  OpenItchio = "/images/logos/B_Itch.io.png",
+  OpenDownload = "/images/logos/B_Download.png",
+  OpenArticle = "/images/logos/B_OpenArticle.png",
 }
 
 export enum Platform {
@@ -34,9 +42,8 @@ export interface AboutMeData {
   image: string;
   cvUri: string;
   links: {
-    github: string;
-    itchIO: string;
     linkedIn: string;
+    Linktree: string;
   };
 }
 
@@ -49,4 +56,12 @@ export interface Game {
   media: MediaItem[];
   platforms: Platform[];
   engine: GameEngine;
+}
+
+export interface Project {
+  name: string;
+  description: string;
+  source?: { name: string; url: string };
+  links: { source: LinkImageSource; url: string }[];
+  media: MediaItem[];
 }
