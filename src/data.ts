@@ -2,8 +2,9 @@ import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform, Pr
 
 export const PersonalInfo: AboutMeData = {
   name: "Oskar Zywer",
-  role: "Game Developer & Technical Specialist",
-  introduction: "A Game Developer and Technical Specialist who enjoys exchanging knowledge with peers and strives to always push boundaries, eager to discover and learn about several aspects of life with the intention to work in an environment with people who share positive moral beliefs and a desire to create emotional and touching forms of art.",
+  role: "Specialist in Technology, Digital Services & Video Game Development",
+  introduction: "Specialist in Technology, Digital Services & Video Game Development",
+  //introduction: "A Game Developer and Technical Specialist who enjoys exchanging knowledge with peers and strives to always push boundaries, eager to discover and learn about several aspects of life with the intention to work in an environment with people who share positive moral beliefs and a desire to create emotional and touching forms of art.",
   description: "e-mail: oskarapple12@gmail.com\nCV and Phone Number can be provided upon request",
   image: `${process.env.PUBLIC_URL}/images/profile.png`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
@@ -76,7 +77,8 @@ export const OtherProjects: Project[] = [
   //},
   {
     name: "University Technical Specialist Internship",
-    description: "At University I managed to obtain an Internship Position, under which I did many things. Under my own supervision, I worked closely with staff to maintain, expand upon and document all of the Equipment and Systems in the University Esports Arena, these systems I then used myself to run and assist in events on campus, both internal events and external venue hire. Around the campus I would develop upon all sorts of things, like restoring and documenting the University Cafe Arcade Cabinets, and I fully planned, developed and delivered a Training Workshop covering all of the systems in the Arena to students.",
+    description: "Under my own supervision, I worked closely with staff to maintain, expand upon and document all of the Equipment and Systems in the University Esports Arena, these systems I then used myself to run and assist in events on campus, both internal events and external venue hire. Around the campus I would develop upon all sorts of things, like restoring and documenting the University Cafe Arcade Cabinets, and I fully planned, developed and delivered a Training Workshop covering all of the systems in the Arena to students.",
+    //description: "At University I managed to obtain an Internship Position, under which I did many things. Under my own supervision, I worked closely with staff to maintain, expand upon and document all of the Equipment and Systems in the University Esports Arena, these systems I then used myself to run and assist in events on campus, both internal events and external venue hire. Around the campus I would develop upon all sorts of things, like restoring and documenting the University Cafe Arcade Cabinets, and I fully planned, developed and delivered a Training Workshop covering all of the systems in the Arena to students.",
     links: [
     ],
     media: [
@@ -91,8 +93,9 @@ export const OtherProjects: Project[] = [
     ],
   },
   {
-    name: "University Virtual Reality Student Museum",
-    description: "With my Internship position, I had the opportunity to develop a University Student Work Museum in Virtual Reality. This was done in Unreal Engine, before migrating to Unity, where I fully developed a Modular Museum Stand System, made to showcase all sorts of student work and to be used on University Open and Offer Holder Days for potential students and parents to look at.",
+    name: "Virtual Reality Student Work Museum",
+    description: "I had the opportunity to develop a University Student Work Museum in Virtual Reality. This was done in Unreal Engine, before migrating to Unity, where I developed a Modular Museum Stand System, made to showcase all sorts of student work and to be used on University Open and Offer Holder Days for potential students and parents to look at.",
+    //description: "With my Internship position, I had the opportunity to develop a University Student Work Museum in Virtual Reality. This was done in Unreal Engine, before migrating to Unity, where I fully developed a Modular Museum Stand System, made to showcase all sorts of student work and to be used on University Open and Offer Holder Days for potential students and parents to look at.",
     links: [
     ],
     media: [
@@ -116,7 +119,7 @@ export const OtherProjects: Project[] = [
   },
   {
     name: "University Event Organizer & Society Manager",
-    description: "Throughout my time at University, I ran a society titled 'Rhythm Revolution' focused around Rhythm games, maintaining an active community through planned events and meetups. Outside of society activity, I would run several events on campus in several roles, including Graphic Design, Live Video Mixing, Logistical planning through Questionnaire and Information Forms, Testing Sessions for Equipment, etc. Majority of events being Video Game Tournaments on small and large scales.",
+    description: "I ran a society titled 'Rhythm Revolution' focused around Rhythm games, maintaining an active community through planned events and meetups. Outside of society activity, I would run several events on campus in several roles, including Graphic Design, Live Video Mixing, Logistical planning through Questionnaire and Information Forms, Testing Sessions for Equipment, etc. Majority of events being Video Game Tournaments on small and large scales.",
     links: [
       { source: LinkImageSource.OpenArticle, url: "https://www.staffsunion.com/news/article/staffsunion/Oskar-Zywer-London-Campus/" },
     ],
@@ -154,7 +157,7 @@ export const GameProjects: Project[] = [
   },
     {
     name: "'The Ghost of Mt.Akina' Short Initial D Anime Cinematic made using Unreal Engine 5 Sequencer",
-    description: "This is a short cinematic made in Unreal Engine 5's Sequencer, using pre-made assets themed after the Japanese Street Racing Manga Series 'Initial D', This is an application of a plethora of cinematography techniques, and has had post-editing applied to it using Sony Vegas",
+    description: "A short cinematic made in Unreal Engine 5's Sequencer, using pre-made assets themed after the Japanese Street Racing Manga Series 'Initial D', This is an application of a plethora of cinematography techniques, and has had post-editing applied to it using Sony Vegas",
     links: [
     ],
     media: [
@@ -204,7 +207,7 @@ export const GameProjects: Project[] = [
     ],
   },
   {
-    name: "AC Project",
+    name: "Assetto Corsa OBS Camera Manager",
     description: "A Camera Manager for Assetto Corsa for use with OBS, this is a project combining the use of OBS and Assetto Corsa plugins, along with LUA scripting and a fancy combination of OBS settings, in order to let users see multiple camera feeds on screen and toggle recording outputs for multiple cameras at once within OBS studio. Made to be modular and customizable, can be downloaded below and I have made a YouTube Showcase Video documenting my process behind it's development.",
     links: [
       { source: LinkImageSource.OpenDownload, url: "https://1drv.ms/u/c/f21daf84cb9eb4ce/EW5j-j8STt5JuwQSJ65HOUkBHJCurrJJtzHaeromp-A3VQ?e=yowUVS" },
@@ -217,7 +220,7 @@ export const GameProjects: Project[] = [
     ],
   },
   {
-    name: "UI Design",
+    name: "User Interface Design",
     description: "A UI Design Project in Unreal Engine 5 where I developed UI assets and blueprint around a pre-made UI framework, themed around the Frutiger aesthetic.",
     links: [
     ],
@@ -230,7 +233,7 @@ export const GameProjects: Project[] = [
   },
   {
     name: "University Senior Collaborative Development - 'Zoomies'",
-    description: "A Cat Kart game that I worked on in a Lead Producer and Tech role in a team of around 30 students, I took on the responsibilities of organizning the Team Microsoft Teams Group, maintaining a Work Schedules Sheet, planning Team Meetings, maintaining the Project Github Repository, and implementing the technical UI functionality into the game. Download and play the game through the Itch.io link below.",
+    description: "A Cat Kart game that I worked on in a Lead Producer and Tech role in a team of around 30 students, I took on the responsibilities of organizning the teams Microsoft Teams Group, maintaining a Work Schedules Sheet, planning Team Meetings, maintaining the Project Github Repository, and implementing the technical UI functionality into the game. Download and play the game through the Itch.io link below.",
     links: [
       { source: LinkImageSource.OpenItchio, url: "https://kieran-oneill.itch.io/zoomies" },
     ],
@@ -254,7 +257,7 @@ export const GameProjects: Project[] = [
 export const MeSection: Project[] = [
   {
     name: "Hey there!",
-    description: "I am a 20-year-old Polish man born and raised in the UK, I stay physically active through playing Arcade Dance Games; I frequently visit local Arcades playing games and engage in communities around them, attending events and meetups with people who share my interest and love for Music Games. I love Japanese media, particularly Video games in the JRPG and Visual Novel genres. I am extremely passionate around Music as a whole, especially Video Game Music, Eurobeat and Hardstyle genres, with Music Composition in general being a hobby of mine, I frequently go to live music shows and gigs. I tinker a lot with electronics and software, constantly learning and trying new things. Check out my Linktree for my Backloggd and Last.fm links if you want to see my taste in Games and Music!!",
+    description: "I am a 22-year-old Polish man born and raised in the UK, I stay physically active through playing Arcade Dance Games; I frequently visit local Arcades playing games and engage in communities around them, attending events and meetups with people who share my interest and love for Music Games. I love Japanese media, particularly Video games in the JRPG and Visual Novel genres. I am extremely passionate around Music as a whole, especially Video Game Music, Eurobeat and Hardstyle genres, with Music Composition in general being a hobby of mine, I frequently go to live music shows and gigs. I tinker a lot with electronics and software, constantly learning and trying new things. Check out my Linktree for my Backloggd and Last.fm links if you want to see my taste in Games and Music!!",
     links: [
     ],
     media: [
